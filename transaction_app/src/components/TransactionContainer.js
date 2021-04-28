@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const Header = () => {
+export const TransactionContainer = () => {
     return (
         <h2>
-            Expen$ify
+            Transactions
         </h2>
     )
 }

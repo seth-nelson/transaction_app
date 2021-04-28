@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const Header = () => {
+export const HistoryContainer = () => {
     return (
         <h2>
-            Expen$ify
+            History
         </h2>
     )
 }
