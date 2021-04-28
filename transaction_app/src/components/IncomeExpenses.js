@@ -1,8 +1,8 @@
 import React from 'react'
 
-const IncomeExpenses = () => {
+export const IncomeExpenses = () => {
     return (
-        <React.Fragment>
+        <div className='income-expenses-container'>
             <div className='income'>
                 <h3>Income</h3>
                 <h4>+$0.00</h4>
@@ -11,8 +11,6 @@ const IncomeExpenses = () => {
                 <h3>Expenses</h3>
                 <h4>-$0.00</h4>
             </div>
-        </React.Fragment>
+        </div>
     )
 }
-
-export default IncomeExpenses;
