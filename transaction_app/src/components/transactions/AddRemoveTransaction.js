@@ -1,14 +1,12 @@
 import React from 'react'
-import AddTransactionButton from './AddTransactionButton';
-import RemoveTransactionButton from './RemoveTransactionButton'
 
-const AddRemoveTransaction = () => {
+const TransactionButtons = () => {
     return (
-        <div className='add-remove-transaction-container'>
-            <AddTransactionButton />
-            <RemoveTransactionButton />
+        <div className='transaction-buttons-container'>
+            <button className='hvr-shutter-out-horizontal'>Add Transaction</button>
+            <button className='hvr-shutter-in-horizontal'>Remove Transaction</button>
         </div>
     )
 }
 
-export default AddRemoveTransaction;
+export default TransactionButtons;
