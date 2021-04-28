@@ -1,10 +1,9 @@
 import React from 'react'
-import HistoryCard from './HistoryCard';
 
 const HistoryContainer = () => {
     return (
-        <div className='history-container'>
-            <HistoryCard />
+        <div className='history-card'>
+            <h4>This is a previous transaction</h4>
         </div>
     )
 }

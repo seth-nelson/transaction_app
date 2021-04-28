@@ -12,16 +12,68 @@ body {
   src: local('Montserrat', url(./fonts/Montserrat-Light.ttf) format('truetype'));
 }
 
-/* .balance-block {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: left; */
-  /* width: 10%;
-  color: white;
-  background-color: #32343d;
-  padding: 20px;
-} */
+/*---------- Components ---------- */
 
+.sub-container {
+  display: flex;
+  flex-direction: row;
+  color: rgb(153, 153, 153);
+  background-color: #35363b;
+  font-family: Montserrat, sans-serif;
+  margin: 40px 10px 40px 10px;
+  /* padding-left: 10px; */
+}
+
+.transaction-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  color: rgb(153, 153, 153);
+  background-color: #2A2C36;
+}
+
+.add-remove-transaction-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  color: rgb(153, 153, 153);
+  background-color: #2A2C36;
+}
+
+.transaction-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin: 0px 20px 0px 20px;
+  color: rgb(153, 153, 153);
+  background-color: #35363b;
+  border-radius: 5px;
+  box-shadow: 3px 3px 2px #262830;
+}
+
+.history-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+  color: rgb(153, 153, 153);
+  background-color: #2A2C36;
+}
+
+.history-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin: 0px 20px 0px 20px;
+  color: rgb(184, 184, 184);
+  background-color: #494955;
+  border-radius: 5px;
+  box-shadow: 3px 3px 2px #262830;
+}
 
 /*---------- Annimations ---------- */
 
