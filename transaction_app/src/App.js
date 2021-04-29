@@ -1,21 +1,22 @@
 import React from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { Header }  from './components/Header';
-import { Balance }  from './components/Balance';
-import { SubContainer }  from './components/SubContainer';
-import { IncomeExpenses } from './components/IncomeExpenses';
+import HomePage  from './components/HomePage';
+import AddTransaction  from './components/transactions/AddTransaction';
 
 import './App.css';
 
 function App() {
   return (
-    <div>
-      <Header />
-      <div classNamer='container'>
-        <Balance />
-        <IncomeExpenses />
-        <SubContainer />
+    <Router>
+      <div>
+        <Header />
+        <div classNamer='container'>
+          <Route exact path='/' component={ HomePage } />
+          <Route exact path='/AddTransaction' component={ AddTransaction } />
+        </div>
       </div>
-    </div>
+    </Router>
   );
 }
 

@@ -3,9 +3,9 @@ import React from 'react'
 const TransactionHeader = () => {
     return (
         <div className='transaction-header-container'>
-            <h3>
+            <h2>
                 Transactions
-            </h3>
+            </h2>
         </div>
     )
 }
