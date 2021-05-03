@@ -1,11 +1,14 @@
 import React from 'react'
 
-const TransactionCard = () => {
+
+const TransactionCard = ({ transaction }) => {
+
     return (
         <div className='transaction-card'>
             <h4>
-                This is a transaction. ------------------- $20.45 --------- X
+                {transaction.item}
             </h4>
+            <button className='hvr-shutter-in-horizontal'>Remove</button>
         </div>
     )
 }
